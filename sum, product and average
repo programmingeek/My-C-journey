@@ -1,0 +1,95 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+ //this is multi-type arithmatic operation code
+
+//first we begin with that of integer 
+
+ int int1,int2,int3,int4,int5;
+ int intsum;
+ int intproduct;
+ float intaverage;
+
+// now we will start wit those of float
+
+ float  fl1,fl2,fl3,fl4,fl5;
+ float flsum;
+ float flproduct;
+ float flaverage;
+
+//now we begin with that of doubles 
+
+ double db1, db2, db3, db4, db5;
+ double dbsum;
+ double dbproduct;
+ double dbaverage;
+
+// we will get the input now
+ cout << "Enter integer 1: ";
+ cin >> int1;
+ cout << "\nEnter integer 2: ";
+ cin >> int2;
+ cout << "\nEnter integer 3: ";
+ cin >> int3;
+ cout << "\nEnter integer 4: ";
+ cin >> int4;
+ cout << "\nEnter integer 5: ";
+ cin >> int5;
+
+ cout << "\nEnter float 1: ";
+ cin >> fl1;
+ cout << "\nEnter float 2: ";
+ cin >> fl2;
+ cout << "\nEnter float 3: ";
+ cin >> fl3;
+ cout << "\nEnter float 4: ";
+ cin >> fl4;
+ cout << "\nEnter float 5: ";
+ cin >> fl5;
+
+ cout << "\nEnter double 1: ";
+ cin >> db1;
+ cout << "\nEnter double 2: ";
+ cin >> db2;
+ cout << "\nEnter double 3: ";
+ cin >> db3;
+ cout << "\nEnter double 4: ";
+ cin >> db4;
+ cout << "\nEnter double 5: ";
+ cin >> db5;
+
+
+
+
+ //now we will perform the operations
+ //first we will calculate the sum
+ intsum = int1 +int2 +int3 +int4 +int5;
+ flsum = fl1 +fl2 +fl3 + fl4 + fl5;
+ dbsum = db1 +db2 + db3 +db4 +db5;
+
+ //now we calculate the product
+ intproduct = int1 *int2 *int3 *int4 *int5;
+ flproduct = fl1 * fl2 * fl3 * fl4 * fl5;
+ dbproduct = db1 * db2* db3 * db4 * db5;
+
+ // now we will calculate the average
+ intaverage = intsum/5;
+ flaverage = flsum/5;
+ dbaverage = dbsum/5;
+
+ cout<< "The sum of the integers are: "<<intsum<<endl;
+ cout<< "The product of the integers are: " <<intproduct<<endl;
+ cout << "The average of the integers are: " << intaverage<<endl;
+
+ cout<< "The sum of the floats are: "<<flsum<<endl;
+ cout<< "The product of the floats are: " <<flproduct<<endl;
+ cout << "The average of the floats are: " << flaverage<<endl;
+
+ cout<< "The sum of the doubles are: "<<dbsum<<endl;
+ cout<< "The product of the doubles are: " <<dbproduct<<endl;
+ cout << "The average of the doubles are: " << dbaverage<<endl;
+
+}
+ 
